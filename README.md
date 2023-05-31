@@ -2,6 +2,12 @@
 
 Based on old Vanced Integration src 
 
+Due to big ReVanced and other community on Reddit, Discord, YouTube,etc.. so app name must be changed to "YouTube Vanced+" instead of "YouTube Vanced"
+
+We are continuing learning how to code with Kotlin/Java just by YouTube tutorial for beginners so don't expect for patches now!
+
+This commit is probably is the commit that modify README.md, next commit should be is code changes.
+
 In order to use this in YouTube/Vanced you must first apply the smali mods applied to vanced (the patching process used for this is currently automated using our closed source tools with no plans to open source it for the time being) (if you mod vanced directly it is not required)
 * First make your edits in android studio
 * Change the string "replaceMeWithsetMillisecondMethod" on PlayerController.java to the method name of YouTube package
