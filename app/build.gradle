@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "vanced.integrations"
-        minSdkVersion 23
-        targetSdkVersion 31
+        minSdkVersion 26
+        targetSdkVersion 33
         versionCode 1
-        versionName "1.0"
+        versionName "1.0-cuynu"
         multiDexEnabled false
 
         Properties properties = new Properties()
@@ -29,6 +29,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'vanced.integrations'
 }
 
 dependencies {
